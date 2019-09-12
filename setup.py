@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 PACKAGE_NAME = 'bkmisc'
 REQUIREMENTS_PATH = 'requirements.txt'
 README_PATH = 'README.md'
-VERSION = '0.0.1'
+VERSION = '0.1.0'
 
 setup(
     name=PACKAGE_NAME,
