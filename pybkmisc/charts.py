@@ -1,11 +1,11 @@
-import pandas as pd
+#import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+#import matplotlib.pyplot as plt
+#import seaborn as sns
 
 
 class PredictionsTable():
-    def __init__(self, y_true, pred_probas):
+    def __init__(self, y_true, pred_probas=None):
         self.y_true = y_true
         self.pred_probas = pred_probas
 
